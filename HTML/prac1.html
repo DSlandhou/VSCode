@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>a[target]{background-color: yellow;}
+    .blue {
+color: blue;
+}
+.green {
+color: green;
+}
+
+
+</style>
+</head>
+<body>
+<h1>CSS [attribute]选择器</h1>
+<p>带有 target 属性的链接获得颜色背景:</p>
+<a href=http://www.qq.com target=”_blank">qq.com</a>
+<a href="http://www.baidu.com" target="_top">baidu.com</a>
+
+<p class=“blue green”>猜猜我</p>
+<p class=“green blue”>的颜色</p>
+
+
+
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>a[target=_blank]{background-color: yellow;}</style>
+</head>
+<body>
+<h1>CSS [attribute]选择器</h1>
+<p>带有 target 属性的链接获得颜色背景:</p>
+<a href=http://www.qq.com target="_blank">qq.com</a>
+<a href="http://www.baidu.com" target="_top">baidu.com</a>
+</body>
+</html>
